@@ -1,0 +1,28 @@
+.product-list-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+    height: 4rem;
+}
+
+.product-name {
+    font-size: 1rem;
+}
+
+.add-to-list-icon {
+    font-size: 1.5rem;
+}
+
+.edit-product-info-icon {
+    font-size: 1.3rem;
+}
+
+.full-heart-icon {
+    font-size: 1.3rem;
+    color: lightcoral;
+}
+
+.empty-heart-icon {
+    font-size: 1.3rem;
+}
