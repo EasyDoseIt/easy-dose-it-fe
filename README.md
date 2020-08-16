@@ -1,2 +1,1 @@
-# easy-dose-it-fe
-Easy Dose It Client
+# Easy Dose It Client
