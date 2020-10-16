@@ -1,0 +1,35 @@
+nav {
+    flex-shrink: 0;
+}
+
+.bottom-app-bar {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #e5e5e5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-icon {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.bottom-app-bar a {
+    color: #017C6B;
+}
+
+.not-home {
+    background: #017c6b;
+}
+
+.add-new-category-icon {
+    font-size: 2rem;
+    color: #c4c4c4;
+}
+
+.spacer {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
