@@ -1,6 +1,6 @@
 {
-  "short_name": "Easy Dose It",
-  "name": "Easy Dose It Web App",
+  "short_name": "Toke Notes",
+  "name": "Toke Notes",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait",
+  "theme_color": "#017C6B",
+  "background_color": "#017C6B"
 }
