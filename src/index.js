@@ -8,8 +8,9 @@ import HomeScreen from './components/HomeScreen/HomeScreen';
 import TopAppBar from './components/TopAppBar/TopAppBar';
 import ProductView from './components/ProductView/ProductView';
 import Categories from './components/Categories/Categories';
-import UhOhPage from './components/UhOhPage/UhOhPage';
 import BottomAppBar from './components/BottomAppBar/BottomAppBar';
+import UhOhPage from './components/UhOhPage/UhOhPage';
+import Login from './components/Login/Login';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
       )}
       />
       <Switch>
+      <Route path="/login" component={Login}/>
       <Route exact path="/" 
       render={ (props) => (
         <HomeScreen {...props} />
