@@ -10,7 +10,7 @@ const TopAppBar = (props) => {
         
         setCurrentScreen(props.location.pathname.replace(/\//g, '')); 
     }, [props.location.pathname, props.pageTitle])
-console.log(props)
+
     return (
         <nav className="top-app-bar">
             {currentScreen === '' ? (
